@@ -8,7 +8,7 @@
 </p>
 
 1. Install Composer
-   ```composer install
+   ```composer install```
 
 ## About Laravel
 
