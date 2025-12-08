@@ -7,9 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-1. Install Composer
+1. Requirement
+   ```bash
+   PHP > 8.x
+   laravel 12
+   AdminLte 3
+   breeze
+
+2. Install Composer
    ```bash
    composer install
+
+3. Install npm
+   ```bash
+   npm run dev && npm run build
+
+4. Migrate
+   ```bash
+   php artisan migrate
+
+5. Seeding DB
+   ```bash
+   php artisan db:seed
+
+6. run project
+   ```bash
+   php artisan serve
 
 ## About Laravel
 
