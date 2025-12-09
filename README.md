@@ -30,7 +30,11 @@
    ```bash
    php artisan db:seed
 
-6. run project
+6. generate key
+   ```bash
+   php artisan key:generate
+
+7. run project
    ```bash
    php artisan serve
 
